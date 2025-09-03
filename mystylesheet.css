@@ -1,0 +1,74 @@
+h1 {
+    color:rgb(3, 255, 3);
+    background-color: blueviolet;
+    line-height: 1em;
+    text-align: center;
+    font: bold 2.5em/3em italic Arial, Helvetica, sans-serif
+    
+}
+
+a:visited {
+    color:blue
+    
+}
+
+h3 {
+    color:rgb(0, 255, 42)
+    
+}
+
+ul { list-style-type: circle;
+     list-style-position: outside;
+
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family:Arial, Helvetica, sans-serif
+}
+body {
+    background-color: rgb(94, 8, 137);
+    color:antiquewhite;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1em;
+    font-style: normal;
+    font-weight: normal;
+}
+
+nav
+{
+    background-color: blueviolet;
+    line-height: 2em;
+    display: block;
+}
+
+nav li
+{
+    display: inline;
+    padding-right: 40px;
+    list-style-type: none;
+}
+
+nav a:link
+{
+    text-decoration:none;
+}
+
+nav a:visited
+{
+    text-decoration: none;
+}
+
+nav a:hover
+{
+    text-decoration: underline;
+}
+
+nav a:active
+{
+   color:crimson; 
+}
